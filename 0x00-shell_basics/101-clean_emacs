@@ -1,1 +1,2 @@
-#!/bin/bash                                                          find . -name '*~' -exec mv -t /tmp/u {} +
+#!/bin/bash
+find . -name '*~' -exec rm -t {} +
